@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('reset.css');
+
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(244, 246, 248);
+  color: rgb(25, 32, 45);
+}
+
+.main-button {
+  flex: 0 0 auto;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 1.6rem 2.8rem;
+    position: relative;
+    font-size: 1.6rem;
+    text-align: center;
+    transition: background-color 0.2s ease 0s;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(89, 100, 224);
+}

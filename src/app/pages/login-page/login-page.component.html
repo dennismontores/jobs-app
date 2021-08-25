@@ -1,0 +1,17 @@
+<div class="container">
+  <form class="form" novalidate (ngSubmit)="sendForm()" [formGroup]="loginForm">
+    <img src="/assets/main-logo.svg" alt="" class="logo">
+    <div class="group">
+      <label for="username">Username or email</label>
+      <input type="text" name="username" id="username" formControlName="username">
+    </div>
+    <div class="group">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" formControlName="password">
+    </div>
+    <div class="group">
+      <a class="link" [routerLink]="'/create-account'">Don't have an account?</a>
+    </div>
+    <button type="submit" class="main-button">Log In</button>
+  </form>
+</div>
